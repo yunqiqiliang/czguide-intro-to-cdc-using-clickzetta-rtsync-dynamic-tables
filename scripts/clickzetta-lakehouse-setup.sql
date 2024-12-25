@@ -2,7 +2,7 @@ CREATE SCHEMA IF NOT EXISTS  Real_Time_Financial_Insights_Using_Change_Data_Capt
 USE SCHEMA Real_Time_Financial_Insights_Using_Change_Data_Capture_CDC;
 
 /*---------------------------*/
--- Create our Warehouse
+-- Create our Virtual Cluster
 /*---------------------------*/
 
 -- data science virtual cluster
