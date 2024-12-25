@@ -1,0 +1,2 @@
+在本快速入门中，在本快速入门中，我们将研究如何使用存储在 PostgreSQL 数据库中的客户交易数据，通过云器Lakehouse的多表实时同步将数据导入云器Lakehouse的表中，通过动态表进行实时数据处理，并进一步通过云器Lakehouse自带的DataGPT进行可视化数据探索和对话式数据分析，从而实现从数据摄取、数据处理和数据分析的实时全链路，以此来了解客户交易和促销等活动的关系。
+从ELT的角度来看，云器Lakehouse的多表实时同步实现了基于CDC的数据抽取（Data Extraction）和加载（Load），并且在该过程中实现了模式演进（Schema Evolution），也就是同步内容会包括源数据库的结构或模式（Schema）的变化。动态表Dynamic Table则以全新的方式实现了数据转换（Data Transform）。
